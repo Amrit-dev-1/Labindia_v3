@@ -1,0 +1,74 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    padding: 10px 0;
+    z-index: 1000;
+    transition: transform 0.5s, opacity 0.5s; /* Add transition for smooth movement */
+}
+
+.navbar {
+    background-color: transparent;
+    height: 70px;
+    /* top: 44px;  */
+}
+
+.nav-item a {
+    color: #FFF !important;
+    margin: -6px 4px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+    font-size: 15px;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+/* Header Icons and Logo */
+.header-icon,
+.header-search {
+    height: auto;
+}
+
+.header-icon {
+    width: 30px;
+}
+
+.header-search {
+    width: 27px;
+}
+
+.main-logo {
+    width: 190px;
+    height: auto;
+    margin: 0px 30px;
+}
+
+/* Background Image */
+.background-img {
+    background: url('/Labindia/assets/images/background-img/image.png') left bottom / cover #050A30 !important;
+}
+
+/* Video Container */
+.video-container {
+    position: absolute;
+}
+
+.video-container video {
+    margin: 20px 50px;
+    width: auto;
+    height: 65vh;
+    border-radius: 10px;
+}
+
+/* Testimonial Section */
+.inner-testimonial-section {
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
