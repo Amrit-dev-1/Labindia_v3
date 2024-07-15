@@ -1,0 +1,101 @@
+@media only screen and (min-width: 1500px) and (max-width:2000px) {
+
+    .detail h3 {
+        font-size: 2rem;
+    }
+
+    .container-client-say h1 {
+        font-size: 4rem;
+    }
+
+    .container-client-say p {
+        font-size: 1.3rem;
+    }
+
+    .card__2 {
+        width: -webkit-fill-available;
+        height: 65%;
+    }
+
+    .img-container {
+        height: auto;
+        width: auto;
+        margin-top: -20px;
+    }
+
+    .card.active .product-btn {
+
+        position: relative;
+        top: 30px;
+    }
+
+    .card {
+        width: 350px;
+        height: 400px;
+        background-color: #96B7C8;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-style: preserve-3d;
+        transition: transform 1s, opacity 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        transform-origin: center;
+        opacity: 0;
+        visibility: hidden;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+
+    .hero-content {
+        color: white;
+        padding: 0px 50px;
+        margin-top: 0px;
+    }
+
+    .hero-content h3 {
+        font-size: 3rem;
+    }
+
+    .hero-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .hero-content h1 span {
+        font-size: 3.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.3rem;
+        text-wrap: pretty;
+        margin: 18px 0;
+    }
+
+    .num h2 {
+        color: white;
+        font-size: 4rem;
+    }
+
+    .num p {
+        color: white;
+        font-size: 1.4rem;
+        text-align: end;
+    }
+
+    .social-icon a {
+        text-align: center;
+        height: auto;
+        width: 120px;
+    }
+
+    .Recommened-product h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width:1499px) {}

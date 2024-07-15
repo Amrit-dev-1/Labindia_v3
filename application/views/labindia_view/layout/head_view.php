@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Labindian 3</title>
-    
+
     <!-- Bootstrap CSS (latest version) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,10 +25,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/preloader.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/header.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/swiper.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/product.css">
+
+    <!-- responsive  -->
+     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/Responsive.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Barlow:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -36,7 +39,25 @@
 
 
 <body>
-  
+    <div class="preloader-container">
+        <div id="preloader">
+            <div id="check-mark" class="symbol">
+
+            <img src="<?php echo base_url() ?>assets/images/gear-spinner.png" alt="">
+
+            </div>
+            <div id="text" class="hidden">
+                <span class="letter">L</span>
+                <span class="letter">a</span>
+                <span class="letter">b</span>
+                <span class="letter">i</span>
+                <span class="letter">n</span>
+                <span class="letter">d</span>
+                <span class="letter">i</span>
+                <span class="letter">a</span>
+            </div>
+        </div>
+    </div>
 
     <!-- <div class="top-bar">
         <div>
@@ -93,9 +114,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Support </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support </a>
-                    </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <img class="header-search" src="<?php echo base_url() ?>assets/images/search.png" alt="">

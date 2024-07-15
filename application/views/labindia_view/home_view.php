@@ -326,7 +326,7 @@
 
     <section class="panel background-color-3">
         <div class="container-tab text-white">
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-md-6">
                     <div class="heading-new text-left mt-0 p-3">
                         <h3 id="section-title" class="element-to-animate-3">What's New</h3>
@@ -498,7 +498,7 @@
             </svg>
             <div class="ball"></div>
         </div> -->
-   
+
         <div class="section-2">
             <div class="container-head-office text-white">
                 <div class="row">
@@ -598,15 +598,77 @@
         </div>
         <div class="section-4">
             <div class="location-tabs">
-                <button class="tab-button" onclick="openTab(event, 'domestic')">Domestic Offices</button>
-                <button class="tab-button" onclick="openTab(event, 'international')">International Partners</button>
+                <button class="tab-button-2" id="defaultTab" onclick="openTab(event, 'domestic')">Domestic Offices</button>
+                <button class="tab-button-2" onclick="openTab(event, 'international')">International Partners</button>
             </div>
 
 
-
-            <div id="international" class="tab-content" style="display:none;">
+            <div id="international" class="tab-content text-white" style="display:none;">
                 <h2>International Partners</h2>
-                <p>Details about international partners go here.</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Upcoming Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Application & Training Centre</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="container text-white mt-4">

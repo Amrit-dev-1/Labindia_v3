@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+
   closeBtn.addEventListener('click', function () {
     sidebar.classList.remove('open');
     swiperContainer.classList.remove('reduced-width');
@@ -101,7 +102,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
  // Initialize animations
 //  createScrollAnimations();
-
 function openTab(event, tabName) {
   // Get all elements with class="tab-content" and hide them
   var i, tabContent, tabButtons;
@@ -112,7 +112,7 @@ function openTab(event, tabName) {
   }
 
   // Get all elements with class="tab-button" and remove the class "active"
-  tabButtons = document.getElementsByClassName("tab-button");
+  tabButtons = document.getElementsByClassName("tab-button-2");
   for (i = 0; i < tabButtons.length; i++) {
       tabButtons[i].classList.remove("active");
   }
@@ -121,6 +121,11 @@ function openTab(event, tabName) {
   document.getElementById(tabName).style.display = "block";
   document.getElementById(tabName).classList.add("active");
   event.currentTarget.classList.add("active");
+}
+
+// Function to simulate a click on the first tab button when the page loads
+window.onload = function() {
+  document.getElementById("defaultTab").click();
 }
 
 // Set initial state

@@ -550,6 +550,28 @@ a {
 	border-radius: 10px;
 }
 
+
+
+.tab-button-2 {
+	background-color: #103f94;
+	color: white;
+	border: none;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.tab-button-2.active {
+	background-color: white;
+	color: #103f94;
+	border: 2px solid #103f94;
+	transform: scale(1.1);
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+
+
 .card-container {
 	display: flex;
 	flex-wrap: wrap;
