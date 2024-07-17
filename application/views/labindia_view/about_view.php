@@ -4,7 +4,7 @@
 
 <div class="custom-container">
 
-    <div class="panel background-color-3">
+    <div class="panel background_color-3">
         <div class="about-us-container">
             <div class="container text-white">
                 <div class="row">

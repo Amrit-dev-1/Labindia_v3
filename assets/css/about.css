@@ -277,8 +277,8 @@
     background-color: #246bff;
     opacity: 1;
     position: relative;
-    width: 100%;
-    transform: translate(50vh, 0);
+    width: 1500px;
+    transform: translate(211vh, 0);
     justify-content: flex-start;
     z-index: 30;
     padding: 0 25px;

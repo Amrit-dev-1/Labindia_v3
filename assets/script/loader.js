@@ -57,29 +57,4 @@
 
 // new loader 
 
-window.addEventListener('load', () => {
-    const preloaderContainer = document.querySelector('.preloader-container');
-    const checkMark = document.getElementById('check-mark');
-    const text = document.getElementById('text');
-    const letters = document.querySelectorAll('.letter');
 
-    checkMark.addEventListener('animationend', () => {
-        checkMark.style.opacity = '0';
-        setTimeout(() => {
-            checkMark.classList.add('hidden');
-            text.classList.remove('hidden');
-            letters.forEach((letter, index) => {
-                setTimeout(() => {
-                    letter.style.opacity = '1';
-                    letter.style.transform = 'translateX(0)';
-                }, index * 200);
-            });
-            setTimeout(() => {
-                preloaderContainer.style.opacity = '0';
-                setTimeout(() => {
-                    preloaderContainer.style.display = 'none'; // Change display to none
-                }, 500);
-            }, 1600); // 200ms * 8 letters
-        }, 500);
-    });
-});

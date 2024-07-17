@@ -31,19 +31,21 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/swiper.css">
 
     <!-- responsive  -->
-     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/Responsive.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/Responsive.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Barlow:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2a3b4ac4f313da1cbf67e31db002cfc0?family=neo+latina" rel="stylesheet">
 </head>
 
 
 <body>
-    <div class="preloader-container">
+    <!-- <div class="preloader-container d-none" >
         <div id="preloader">
             <div id="check-mark" class="symbol">
-
-            <img src="<?php echo base_url() ?>assets/images/gear-spinner.png" alt="">
+                <img src="<?php echo base_url() ?>assets/images/gear-spinner.png" alt="">
+                <img src="<?php echo base_url() ?>assets/images/progress.png" class="img-fluid" alt="">
+                <i class="fa-solid fa-check"></i>
 
             </div>
             <div id="text" class="hidden">
@@ -57,7 +59,8 @@
                 <span class="letter">a</span>
             </div>
         </div>
-    </div>
+    </div> -->
+
 
     <!-- <div class="top-bar">
         <div>
@@ -114,7 +117,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Support </a>
                     </li>
-                   
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <img class="header-search" src="<?php echo base_url() ?>assets/images/search.png" alt="">

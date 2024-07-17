@@ -19,13 +19,13 @@
                         <!-- <i class="fas fa-play-circle play-icon"></i> -->
                     </div>
                     <!-- 
-                    <video autoplay muted loop>
-                        <source src="<?php echo base_url() ?>assets/images/video-product-page.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video> -->
+                        <video autoplay muted loop>
+                            <source src="<?php echo base_url() ?>assets/images/video-product-page.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video> -->
                 </div>
                 <div class="col-md-8 content-container">
-                    <div class="container-tab-detail">
+                    <div class="container-tab-detail ">
                         <h1>Tablet Dissolution Testers</h1>
                         <img src="<?php echo base_url() ?>assets/images/product_page/blue-line.png" class="blue-line" alt="">
                         <p class="mt-5">Discover Labindia Analytical's advanced Dissolution Tester – a cutting-edge solution for pharmaceutical research and quality control. Our instrument offers multi-station capability, precise temperature control, automated sampling, and compliance with regulatory standards. Experience efficiency and accuracy in dissolution testing with Labindia Analytical.</p>
@@ -60,10 +60,10 @@
         </div>
     </section>
 
-    <section class="panel background_color-3">
+    <!-- <section class="panel background_color-3">
         <div class="container-dissolution">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="dissolution-title text-white">
                         <h1>
                             Tablet Dissolution Testers
@@ -76,10 +76,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="product-cards-container">
                         <div class="dissolution-card text-center">
-                            <!-- <img src="<?php echo base_url() ?>" alt=""> -->
                             <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
 
                             <h4>Dissolution Testers DS 8000(Basic)</h4>
@@ -99,7 +98,6 @@
                         </div>
 
                         <div class="dissolution-card text-center">
-                            <!-- <img src="<?php echo base_url() ?>" alt=""> -->
                             <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
 
 
@@ -113,10 +111,83 @@
             </div>
         </div>
 
+    </section> -->
+
+
+
+
+    <section class="panel ">
+        <div class="container-dissolution">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dissolution-title text-white">
+                        <h1>Tablet Dissolution Testers</h1>
+                        <span>DS 8000(Basic)</span>
+                    </div>
+                    <div class="product-list">
+                        <p>Product List</p>
+                        <div class="carousel-scrollbar">
+                            <button class="scroll-arrow left-arrow">&#9664;</button>
+                            <div class="scrollbar-track">
+                                <div class="scrollbar-thumb">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                            </div>
+                            <button class="scroll-arrow right-arrow">&#9654;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="carousel-container-product">
+                        <div class="product-cards-container">
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+
+                            <div class="dissolution-card text-center">
+                                <img src="<?php echo base_url() ?>assets/images/product/10.png" class="" alt="">
+                                <h4>Dissolution Testers DS 8000(Basic)</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius dolores a</p>
+                                <a href="#">Explore More</a>
+                            </div>
+                            <!-- Add more product cards as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <section class="panel background_color-3">
+    <section class="panel ">
 
         <div class="tester-section">
             <div class="tester-header">
@@ -158,7 +229,7 @@
 
     </section>
 
-    <section class="panel background_color-3">
+    <section class="panel ">
         <div class="container-AUTOMATION ">
             <div class="row">
 
@@ -202,7 +273,7 @@
         </div>
     </section>
 
-    <section class="panel background_color-3">
+    <section class="panel">
         <div class="data-integrity-section">
             <div class="container">
                 <div class="row">
@@ -243,46 +314,3 @@
 
 
 <?php $this->load->view('labindia_view/layout/footer_view.php'); ?>
-
-<script>
-    // Function to handle content change and animation
-    function handleExploreMore(event) {
-        event.preventDefault(); // Prevent default link behavior
-
-        // Get the clicked card's content
-        let card = event.target.closest('.dissolution-card');
-        let title = card.querySelector('h4').innerText;
-        let description = card.querySelector('p').innerText;
-
-        // GSAP animation for content change
-        gsap.to('.dissolution-title h1', {
-            duration: 0.5,
-            opacity: 0,
-            onComplete: function() {
-                document.querySelector('.dissolution-title h1').innerText = title;
-                gsap.to('.dissolution-title h1', {
-                    duration: 0.5,
-                    opacity: 1
-                });
-            }
-        });
-
-        gsap.to('.product-list p', {
-            duration: 0.5,
-            opacity: 0,
-            onComplete: function() {
-                document.querySelector('.product-list p').innerText = description;
-                gsap.to('.product-list p', {
-                    duration: 0.5,
-                    opacity: 1
-                });
-            }
-        });
-    }
-
-    // Attach click event listeners to all "Explore More" links
-    let exploreLinks = document.querySelectorAll('.dissolution-card a[href="#"]');
-    exploreLinks.forEach(link => {
-        link.addEventListener('click', handleExploreMore);
-    });
-</script>

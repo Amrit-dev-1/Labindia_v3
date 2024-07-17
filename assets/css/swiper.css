@@ -1,10 +1,16 @@
+body{
+	overflow-x: hidden;
+}
+
 .carousel-container {
     position: relative;
-    width: 80%;
-    height: 60vh;
-    perspective: 1200px;
-    top: -40px;
+    width: 85%;
+    height: 60%;
+    perspective: 1300px;
+    top: -20px;
 }
+
+
 
 .carousel {
 	width: 100%;

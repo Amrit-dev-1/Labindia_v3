@@ -18,6 +18,7 @@
 
 
 
+
 <?php $this->load->view('labindia_view/layout/head_view.php'); ?>
 
 
@@ -26,17 +27,17 @@
 
     <!-- panle 1 start -->
 
-    <section class="panel background-color-3">
+    <section class="panel background_color-3">
 
-        <div class="introduction-container">
+        <div class="introduction-container ">
             <div class="row">
-                <div class="col-md-9 element-to-animate">
-                    <div class="container_video" id="videoContainer">
+                <div class="col-md-9 ">
+                    <div class="container_video motion-1" id="videoContainer">
                         <video autoplay muted loop>
                             <source src="assets/images/video-2.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <div class="hero-content" id="heroContent">
+                        <div class="hero-content  " id="heroContent">
                             <h3>Welcome To</h3>
                             <h1>LABINDIA <span>ANALYTICAL</span> </h1>
                             <p>With over 40 years of industry expertise and a team of 500+ professionals, Labindia Analytical is your trusted partner for cutting-edge analytical solutions. Compliant with international standards, we serve 6,000+ clients and 15,000+ customers nationwide through our 12 offices across India.</p>
@@ -47,9 +48,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="container-explore">
-                        <div class="container-number d-flex flex-column align-items-center element-to-animate" id="containerNumber">
+                <div class="col-md-3 ">
+                    <div class="container-explore motion-2 ">
+                        <div class="container-number d-flex flex-column align-items-center " id="containerNumber">
                             <div class="num text-center">
                                 <h2>40 <span>+</span></h2>
                                 <p>Years of Experience</p>
@@ -63,7 +64,7 @@
                                 <p>Satisfied Clients</p>
                             </div>
                         </div>
-                        <div class="social-btn text-center element-to-animate mt-3">
+                        <div class="social-btn text-center motion-10 mt-3">
                             <button class="btn btn-primary">Explore Product</button>
                             <div class="social-icon d-flex justify-content-center mt-2" id="socialIcons">
                                 <a href="#" id="social-icon-1" class="social-link mx-2">
@@ -95,7 +96,7 @@
 
     <!-- 2nd panel start -->
 
-    <!-- <section class="panel background-color-3">
+    <!-- <section class="panel ">
 
         <div class="carousel-container">
 
@@ -183,13 +184,13 @@
         </div>
     </section> -->
 
-    <section class="panel background-color-3 ">
-        <div class="carousel-container">
-            <div class="Recommened-product text-white">
+    <section class="panel ">
+        <div class="carousel-container ">
+            <div class="Recommened-product text-white " >
                 <h1>Recommened Products</h1>
                 <p>(Quick-view)</p>
             </div>
-            <div class="carousel">
+            <div class="carousel ">
                 <div class="card text-center product-card-color-1">
                     <div class="detail">
                         <div class="img-container">
@@ -265,7 +266,7 @@
 
     <!-- panel 3 start -->
 
-    <section class="panel background-color-3">
+    <section class="panel ">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
@@ -324,7 +325,7 @@
 
     <!-- panel 4 start -->
 
-    <section class="panel background-color-3">
+    <section class="panel ">
         <div class="container-tab text-white">
             <div class="row mb-4">
                 <div class="col-md-6">
@@ -476,7 +477,7 @@
 
 <!-- Contact Form start -->
 
-<div class="container-motion background-color-3">
+<div class="container-motion ">
     <div class="section-1">
         <div class="container-connect">
             <div class="row">

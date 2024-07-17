@@ -100,21 +100,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
- // Initialize animations
+// Initialize animations
 //  createScrollAnimations();
 function openTab(event, tabName) {
   // Get all elements with class="tab-content" and hide them
   var i, tabContent, tabButtons;
   tabContent = document.getElementsByClassName("tab-content");
   for (i = 0; i < tabContent.length; i++) {
-      tabContent[i].style.display = "none";
-      tabContent[i].classList.remove("active");
+    tabContent[i].style.display = "none";
+    tabContent[i].classList.remove("active");
   }
 
   // Get all elements with class="tab-button" and remove the class "active"
   tabButtons = document.getElementsByClassName("tab-button-2");
   for (i = 0; i < tabButtons.length; i++) {
-      tabButtons[i].classList.remove("active");
+    tabButtons[i].classList.remove("active");
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
@@ -124,7 +124,7 @@ function openTab(event, tabName) {
 }
 
 // Function to simulate a click on the first tab button when the page loads
-window.onload = function() {
+window.onload = function () {
   document.getElementById("defaultTab").click();
 }
 

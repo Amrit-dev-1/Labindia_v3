@@ -2,6 +2,12 @@ body {
     overflow-y: hidden;
 }
 
+.display-4 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 35px 0;
+}
+
 .video-container-product video{
     height: 50%;
     width: 50%;
@@ -21,7 +27,7 @@ body {
     /* border: 1px solid white; */
     display: inline-flex;
     gap: 8px;
-    margin: 5% 0;
+    padding: 30px;
 }
 
 .dissolution-card {
@@ -413,4 +419,85 @@ p {
 .AUTOMATION-img-2{
     height: auto;
     width: 50%;
+}
+
+
+.carousel-container {
+    position: relative;
+}
+
+.product-cards-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
+}
+
+.product-cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+.dissolution-card {
+    min-width: 260px;
+    margin-right: 20px;
+}
+.product-list {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.carousel-scrollbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 30px; 
+}
+
+.scrollbar-track {
+    flex: 1;
+    position: relative;
+    height: 5px;
+    background: #f0f0f0;
+    margin: 0 5px;
+}
+
+.scrollbar-thumb {
+    width: 20px;
+    height: 100%;
+    /* background: #050A30; */
+    border-radius: 5px;
+    position: absolute;
+    top: -9px;
+}
+
+
+
+.scrollbar-thumb i{
+    color: white;
+}
+
+.scroll-arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #1C46F2;
+}
+
+
+.scroll-arrow:focus {
+    outline: none;
+}
+
+
+.carousel-container-product {
+    position: relative;
+    width: 95%;
+    height: 60vh;
+    perspective: 1200px;
 }

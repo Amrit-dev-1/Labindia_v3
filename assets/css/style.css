@@ -1,3 +1,5 @@
+
+
 html {
 	overflow-y: scroll;
 	
@@ -108,11 +110,9 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url('../images/background-img/image.png');
 	width: 100vh;
 	height: 100vh;
-	background-position: center;
-	background-size: cover;
+	
 }
 
 /* .element-to-animate-3 {
@@ -1334,8 +1334,11 @@ main {
 	top: -18vh;
 }
 
-.background-color-3 {
+.background_color-3{
 	background-color: #050A30;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../images/background-img/image.png');
 }
 
 .product-btn:hover {
@@ -1893,6 +1896,8 @@ i.fa-brands.fa-youtube {
 	/* Smooth width transition */
 }
 
+
+
 .carousel.reduced-width {
 	width: 60%;
 	transition: 0.5s ease-in-out
@@ -2402,4 +2407,10 @@ i.fa-brands.fa-youtube {
 	height: 330px;
 	width: 330px;
 	border-radius: 50%;
+}
+
+.motion-1, .motion-2, .motion-3, .motion-4, .motion-5,
+.motion-6, .motion-7, .motion-8, .motion-9, .motion-10 {
+   transition: 0.3s ease-in-out;
+    will-change: transform; 
 }
