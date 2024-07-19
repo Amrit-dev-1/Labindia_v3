@@ -64,7 +64,7 @@
                                 <p>Satisfied Clients</p>
                             </div>
                         </div>
-                        <div class="social-btn text-center motion-10 mt-3">
+                        <div class="social-btn text-center motion-1 mt-3">
                             <button class="btn btn-primary">Explore Product</button>
                             <div class="social-icon d-flex justify-content-center mt-2" id="socialIcons">
                                 <a href="#" id="social-icon-1" class="social-link mx-2">
