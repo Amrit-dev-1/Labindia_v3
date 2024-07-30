@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/Labindia_v3/';
-// $config['base_url'] = 'http://192.168.1.10/Labindia_v3/';
+// $config['base_url'] = 'http://192.168.1.6/Labindia_v3/';
 
 /*
 |--------------------------------------------------------------------------

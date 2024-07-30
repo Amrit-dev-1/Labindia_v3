@@ -178,7 +178,7 @@ p {
 }
 
 .features {
-    margin-top: 30px;
+    /* margin-top: -35px; */
     display: flex;
     flex-direction: column;
     background-color: #1C46F2;
@@ -187,10 +187,9 @@ p {
     position: absolute;
     right: 0;
     border-radius: 35px 0 0 35px;
-    height: 80%;
-    top: 50px;
+    height: auto;
+    top: 60px;
 }
-
 .feature-item {
     display: grid;
     align-items: center;

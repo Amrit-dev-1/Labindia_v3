@@ -1,20 +1,16 @@
-
+/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-
     padding: 10px 0;
     z-index: 1000;
-    transition: transform 0.5s, opacity 0.5s; /* Add transition for smooth movement */
-}
-
-.navbar {
+    transition: transform 0.5s, opacity 0.5s;
     background-color: transparent;
     height: 70px;
-    /* top: 44px;  */
 }
 
+/* Navbar Links */
 .nav-item a {
     color: #FFF !important;
     margin: -6px 4px;
@@ -36,21 +32,23 @@
 
 .header-icon {
     width: 30px;
+    position: relative;
+    bottom: 5px;
 }
 
 .header-search {
-    width: 27px;
+    width: 25px;
 }
 
 .main-logo {
-    width: 190px;
+    width: 180px;
     height: auto;
-    margin: 0px 30px;
+    margin: 0 30px;
 }
 
 /* Background Image */
 .background-img {
-    background: url('/Labindia/assets/images/background-img/image.png') left bottom / cover #050A30 !important;
+    background: url('../images/background-img/image.png') left bottom / cover #050A30 !important;
 }
 
 /* Video Container */
@@ -71,4 +69,62 @@
     background-color: white;
     height: 200px;
     width: 300px;
+}
+
+#scrollbar-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#scrollbar-style::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+#scrollbar-style::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D62929;
+}
+
+#dot,
+#ball {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#dot {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    z-index: 10;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ff5722;
+    background: transparent;
+    z-index: 5;
+}
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #05366F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#preloader video {
+    max-width: 100%;
+    max-height: 100%;
 }

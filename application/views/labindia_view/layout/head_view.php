@@ -39,28 +39,11 @@
 </head>
 
 
-<body>
-    <!-- <div class="preloader-container d-none" >
-        <div id="preloader">
-            <div id="check-mark" class="symbol">
-                <img src="<?php echo base_url() ?>assets/images/gear-spinner.png" alt="">
-                <img src="<?php echo base_url() ?>assets/images/progress.png" class="img-fluid" alt="">
-                <i class="fa-solid fa-check"></i>
+<body id="scrollbar-style">
 
-            </div>
-            <div id="text" class="hidden">
-                <span class="letter">L</span>
-                <span class="letter">a</span>
-                <span class="letter">b</span>
-                <span class="letter">i</span>
-                <span class="letter">n</span>
-                <span class="letter">d</span>
-                <span class="letter">i</span>
-                <span class="letter">a</span>
-            </div>
-        </div>
-    </div> -->
-
+    <div id="preloader">
+        <video src="<?php echo base_url() ?>assets/images/video/preloader-gif.mp4" autoplay muted></video>
+    </div>
 
     <!-- <div class="top-bar">
         <div>
@@ -103,10 +86,10 @@
                         <a class="nav-link" href="<?php echo base_url() ?>Product">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Applications</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>App">Applications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News & Events </a>
+                        <a class="nav-link" href="<?php echo base_url() ?>News">News & Events </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Resources</a>
@@ -127,3 +110,6 @@
             </div>
         </div>
     </nav>
+
+    <div id="dot"></div>
+    <div id="ball"></div>

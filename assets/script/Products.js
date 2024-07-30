@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const leftArrow = document.querySelector(".left-arrow");
     const rightArrow = document.querySelector(".right-arrow");
 
-    const scrollAmount = 300; // Adjust this value to control scroll distance
+    const scrollAmount = 300; 
 
     const updateScrollbar = () => {
         const scrollPercentage = cardsContainer.scrollLeft / (cardsContainer.scrollWidth - cardsContainer.clientWidth);
