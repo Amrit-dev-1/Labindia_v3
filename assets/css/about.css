@@ -11,14 +11,6 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* .abt-img-group {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 20px;
-} */
-
-
 .abt-img-4 {
     width: 375px;
     height: auto;
@@ -46,6 +38,7 @@
     height: 75%;
     padding: 0 10px;
 }
+
 .about-content-1 {
     color: white;
     margin: 5% auto;

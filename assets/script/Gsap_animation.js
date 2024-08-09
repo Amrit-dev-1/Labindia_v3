@@ -1,23 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Initialize GSAP and ScrollTrigger
-	gsap.registerPlugin(ScrollTrigger);
+    // Initialize GSAP and ScrollTrigger
+    gsap.registerPlugin(ScrollTrigger);
 
-	// Create the horizontal scroll animation
-	const sections = gsap.utils.toArray(".panel");
-	gsap.to(sections, {
-		xPercent: -100 * (sections.length - 1),
-		ease: "none",
-		scrollTrigger: {
-			trigger: ".custom-container",
-			pin: true,
-			scrub: 1,
-			snap: 1 / (sections.length - 1),
-			end: () => "+=" + document.querySelector(".custom-container").offsetWidth * (sections.length - 1)
-		},
-	});
+    // Create the horizontal scroll animation
+    const sections = gsap.utils.toArray(".panel");
+    gsap.to(sections, {
+        xPercent: -100 * (sections.length - 1),
+        ease: "none",
+        scrollTrigger: {
+            trigger: ".custom-container",
+            pin: true,
+            scrub: 1,
+            snap: 1 / (sections.length - 1),
+            end: () => "+=" + document.querySelector(".custom-container").offsetWidth * (sections.length - 1)
+        },
+    });
 
-
+    // Change .navbar background color on vertical scroll
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 0) { // Change 0 to the desired scroll value if you want it to change after a specific scroll amount
+            navbar.style.backgroundColor = "#050A30";
+        } else {
+            navbar.style.backgroundColor = "transparent"; // Reset to transparent or any original color when not scrolling
+        }
+    });
 });
+
 
 
 // document.addEventListener("DOMContentLoaded", function () {

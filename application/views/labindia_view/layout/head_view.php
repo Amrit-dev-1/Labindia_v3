@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+
+
     <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
 
     <!-- AOS CSS (latest version) -->
@@ -42,7 +44,7 @@
 <body id="scrollbar-style">
 
     <div id="preloader">
-        <video src="<?php echo base_url() ?>assets/images/video/preloader-gif.mp4" autoplay muted></video>
+        <video src="<?php echo base_url() ?>assets/video/new_rename.mp4" autoplay muted></video>
     </div>
 
     <!-- <div class="top-bar">
@@ -92,13 +94,15 @@
                         <a class="nav-link" href="<?php echo base_url() ?>News">News & Events </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>Resource">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us </a>
+                        <a class="nav-link" href="<?php echo base_url() ?>Contact_us">Contact us </a>
                     </li>
                     <li class="nav-item">
+                        <!-- <a class="nav-link" href="<?php echo base_url() ?>Support">Support </a> -->
                         <a class="nav-link" href="#">Support </a>
+
                     </li>
 
                     <li class="nav-item">

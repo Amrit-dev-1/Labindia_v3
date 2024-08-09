@@ -33,7 +33,7 @@
 
     </div>
 
-    <div class="panel background-color-3">
+    <div class="panel ">
         <div class="container-abt-2">
             <div class="row">
                 <div class="col-md-6 p-4">
@@ -65,7 +65,8 @@
         </div>
     </div>
 
-    <div class="panel background-color-3">
+    <!-- this is parent panel start -->
+    <div class="panel"> <!--child_1 -->
         <div class="about-company-container">
             <div class="row">
                 <div class="col-md-5">
@@ -123,7 +124,7 @@
         </div>
 
 
-        <div class="panel background-color-3">
+        <div class="panel"> <!--child_2 -->
             <div class="container-time-line">
                 <div class="row">
                     <div class="col-md-6">
@@ -176,7 +177,7 @@
         </div>
 
 
-        <div class="panel background-color-3">
+        <div class="panel"> <!--child_3 -->
             <div class="container-team">
                 <div class="meet-team_heading text-white">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -220,10 +221,62 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <div class="panel background-color-3">
+        <div class="panel">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="container-client-say text-white">
+                            <h1>
+                                What our<br> Client Say
+                            </h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae deleniti dolorem dolores praesentium possimus impedit eum, quae sequi nisi!</p>
+                            <h3>
+                                LABINDIA
+                                ANALYTICAL
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="container-vertical-slider">
+                            <div class="vertical-slider">
+                                <div class="card__2">
+
+                                    <div class="container-title">
+                                        <h3>John Doe</h3>
+                                        <span>2 days ago</span>
+                                        <!-- <div class="wave-card wave1"></div>
+                                    <div class="wave-card wave2"></div>
+                                    <div class="wave-card wave3"></div> -->
+                                    </div>
+                                    <p>“The service and products provided by Labindia Analytical are exceptional. Their spectrophotometers have significantly improved our lab's efficiency.”</p>
+                                </div>
+                                <div class="card__2">
+                                    <div class="container-title">
+                                        <h3>Cia Rodriguez</h3>
+                                        <span>5 hours ago</span>
+                                    </div>
+
+                                    <p>
+                                        "Their UV-Visible Spectrophotometers are top-notch. I've used them for years in the pharmaceutical industry and they've always been reliable, accurate, and efficient."</p>
+                                </div>
+                                <div class="card__2">
+                                    <div class="container-title">
+                                        <h3>Jane Smith</h3>
+                                        <span>1 week ago</span>
+                                    </div>
+                                    <p>“Labindia Analytical has been a game-changer for our research. Their reliable and accurate instruments are exactly what we needed.”</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel"> <!--child_4 -->
             <div class="container-abt-event">
                 <div class="event-heading text-white">
                     <p>Lorem ipsum dolor sit amet consectetur </p>
@@ -272,6 +325,9 @@
             </div>
         </div>
     </div>
+    <!-- this is parent panel end  -->
+
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

@@ -17,8 +17,8 @@
 .gallery-wrap {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    height: 85vh;
+    width: 80%;
+    height: 80vh;
     margin: auto;
 }
 
